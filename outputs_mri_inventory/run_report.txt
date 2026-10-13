@@ -1,0 +1,30 @@
+MRI DATASET INVENTORY REPORT
+MS_ROOT: D:\Xử lý ảnh\Brai MIR
+NON_MS_ROOT: D:\Xử lý ảnh\non_brain
+Output: D:\Cell_A549\outputs_mri_inventory
+
+[MS]
+NIfTI files found: 360
+
+[NON_MS]
+NIfTI files found: 40
+
+SUMMARY
+-------
+Total NIfTI files: 400
+Loaded successfully: 400
+Load errors: 0
+Inferred subject folders: 70
+
+By group:
+  MS: 60 inferred subject folders; 360 NIfTI files
+  NON_MS: 10 inferred subject folders; 40 NIfTI files
+
+IMPORTANT:
+- Subject folder is inferred from first directory under each root; verify it matches patient IDs.
+- T1_acq is kept as a separate label for inspection; do not assume it is an independent modality.
+- Mask-image pairing is filename-based and preliminary only.
+- Matching shape/affine does not prove correct mask alignment; inspect overlays.
+- Source data are not modified. This script does not normalize or resample images.
+
+CSV outputs: file_inventory.csv, patient_summary.csv, mask_image_checks.csv

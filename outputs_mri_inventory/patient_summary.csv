@@ -1,0 +1,71 @@
+﻿group,subject_folder,n_nifti_files,n_loaded_ok,has_FLAIR,has_T1,has_T1_ACQ,has_T2,has_MASK_FLAIR,has_MASK_T1,has_MASK_T2,modalities_found,load_errors
+MS,Patient-1,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-10,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-11,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-12,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-13,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-14,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-15,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-16,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-17,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-18,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-19,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-2,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-20,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-21,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-22,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-23,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-24,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-25,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-26,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-27,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-28,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-29,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-3,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-30,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-31,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-32,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-33,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-34,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-35,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-36,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-37,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-38,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-39,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-4,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-40,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-41,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-42,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-43,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-44,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-45,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-46,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-47,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-48,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-49,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-5,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-50,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-51,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-52,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-53,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-54,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-55,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-56,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-57,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-58,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-59,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-6,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-60,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-7,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-8,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+MS,Patient-9,6,6,True,True,False,True,True,True,True,"FLAIR, MASK_FLAIR, MASK_T1, MASK_T2, T1, T2",0
+NON_MS,Patient-001,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-002,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-003,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-004,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-005,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-006,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-007,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-008,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-009,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
+NON_MS,Patient-010,4,4,True,True,False,True,False,False,False,"FLAIR, T1, T2",0
