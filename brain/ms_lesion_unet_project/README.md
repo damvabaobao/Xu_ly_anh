@@ -106,6 +106,18 @@ Outputs in `OUTPUT_ROOT\prediction`:
 
 The 3D predicted volume is calculated from the NIfTI voxel spacing in mm. Per-slice area uses the first two voxel spacing values. NIfTI array axis order can differ from anatomical display conventions; verify overlays visually against the source image.
 
+## 8. Prediction GUI
+
+After training the YOLO segmentation model and the MS/non-MS classifier, launch the GUI from this folder:
+
+```powershell
+python app_check.py
+```
+
+Choose a `.nii` or `.nii.gz` FLAIR file and the trained YOLO and CNN checkpoints. The default model paths use `OUTPUT_ROOT\yolo_runs\ms_lesion_seg\weights\best.pt` and `OUTPUT_ROOT\best_ms_classifier.pt`; use the browse buttons if your checkpoints are elsewhere. The window shows a representative axial slice with the YOLO lesion outline, previews after Gaussian, median, and CLAHE preprocessing, an ROI intensity histogram, lesion/ROI mean measurements, lesion volume, and the CNN's mean MS probability across valid slices. The preprocessing previews use the same cumulative order and settings as the prediction pipeline. Predictions and a JSON summary are saved below `OUTPUT_ROOT\app_predictions`.
+
+The CNN result is a research estimate and is not a medical diagnosis. Its image preprocessing and slice-level prediction follow the training pipeline.
+
 ## K-means and morphology
 
 Morphological closing and tiny-component filtering are enabled. K-means is disabled by default (`USE_KMEANS_POSTPROCESS = False`) because clustering may delete true small lesions or retain false positives. Enable it only for a controlled validation experiment and compare test metrics before/after.

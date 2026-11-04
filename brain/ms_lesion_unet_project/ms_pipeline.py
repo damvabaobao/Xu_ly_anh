@@ -86,7 +86,7 @@ from tqdm import tqdm
 
 try:
 
-    import config
+    import brain.ms_lesion_unet_project.config as config
 
 except ImportError as exc:
 
@@ -495,20 +495,20 @@ def scale_u8(img):
 
 
 
+def preprocess_slice_stages(slice2d):
 
-def preprocess_slice(slice2d, output_dir: Path | None = None, tag="slice"):
+    """Return the cumulative uint8 images after Gaussian, median and CLAHE."""
 
-    """Return enhanced image, brain ROI, K=3 labels and Otsu threshold mask."""
-
-    raw = np.nan_to_num(np.asarray(slice2d, dtype=np.float32))
-
-    u8 = scale_u8(raw)
+    u8 = scale_u8(np.nan_to_num(np.asarray(slice2d, dtype=np.float32)))
+    stages = {}
 
     if cfg("USE_GAUSSIAN", True):
 
         sigma = float(tuple(cfg("GAUSSIAN_SIGMAS", (0.5, 1.0)))[0])
 
         u8 = cv2.GaussianBlur(u8, (0, 0), sigmaX=sigma)
+
+    stages["gaussian"] = u8.copy()
 
     if cfg("USE_MEDIAN", True):
 
@@ -520,6 +520,8 @@ def preprocess_slice(slice2d, output_dir: Path | None = None, tag="slice"):
 
         u8 = cv2.medianBlur(u8, k)
 
+    stages["median"] = u8.copy()
+
     if cfg("USE_CLAHE", True):
 
         clip = float(tuple(cfg("CLAHE_CLIP_LIMITS", (.01, .03)))[0])
@@ -529,6 +531,20 @@ def preprocess_slice(slice2d, output_dir: Path | None = None, tag="slice"):
         clahe = cv2.createCLAHE(clipLimit=max(1.0, clip * 100.0), tileGridSize=tuple(cfg("CLAHE_TILE_GRID_SIZE", (8, 8))))
 
         u8 = clahe.apply(u8)
+
+    stages["clahe"] = u8.copy()
+    return stages
+
+
+
+
+def preprocess_slice(slice2d, output_dir: Path | None = None, tag="slice"):
+
+    """Return enhanced image, brain ROI, K=3 labels and Otsu threshold mask."""
+
+    raw = np.nan_to_num(np.asarray(slice2d, dtype=np.float32))
+
+    u8 = preprocess_slice_stages(raw)["clahe"]
 
     # Otsu is used to estimate foreground/brain ROI, not lesion truth.
 
