@@ -1,0 +1,4 @@
+Oracle transforms use the known synthetic motion for diagnostics only; never use as an initialization in the comparative registration experiment.
+S o T0 applies T0 first, then S. All scores use common fixed voxels and identical histogram settings.
+Mattes scores are independent full-grid diagnostics, not the original sampled multiresolution optimizer objectives.
+MI differences alone do not prove a local optimum or anatomical accuracy. No registration was rerun.

@@ -1,0 +1,14 @@
+{
+  "status": "OK",
+  "patient": "patient_02",
+  "n_roi": 5,
+  "tests": [
+    "T0",
+    "T1",
+    "T2",
+    "T3",
+    "C1",
+    "C2",
+    "C3"
+  ]
+}

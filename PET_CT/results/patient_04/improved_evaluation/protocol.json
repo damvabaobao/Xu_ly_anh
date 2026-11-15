@@ -1,0 +1,30 @@
+{
+  "angles": [
+    -15,
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15
+  ],
+  "selection": "Common-sample histogram MI of moved PET and CT; no ground truth used for candidate selection",
+  "coarse": [
+    4,
+    2
+  ],
+  "fine": [
+    2,
+    1
+  ],
+  "affine": "unconstrained local refinement; no guarantee of anatomical plausibility",
+  "rotation": "proper polar rotation for affine",
+  "relative": "Ts @ inverse(T0), each method own T0",
+  "runtime": "Affine total includes multi-start; existing times from saved runs",
+  "roi": "Analytic centroid and volume ratio; CNR common voxels per test, not across all tests; no clinical TRE or SUV",
+  "probe_half_extents_mm": [
+    100,
+    100,
+    200
+  ]
+}

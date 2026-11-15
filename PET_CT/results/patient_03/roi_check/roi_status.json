@@ -1,0 +1,9 @@
+{
+  "seg_file": "ee474dcc-9318-43b1-b99a-c89433be945c.dcm",
+  "seg_type": "BINARY",
+  "nonempty_rois": 0,
+  "status": "EMPTY_SEG",
+  "segments": 1,
+  "patient": "patient_03",
+  "pet_units": "BQML"
+}

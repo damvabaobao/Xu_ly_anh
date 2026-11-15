@@ -1,0 +1,4 @@
+﻿method,synthetic_shift_x_mm,synthetic_shift_y_mm,synthetic_shift_z_mm,synthetic_rotation_z_deg,mean_control_error_mm,rmse_control_error_mm,mutual_information_nats,common_samples,seconds,seed
+Misaligned baseline,2.0,0.0,0.0,0.0,2.0,2.0,0.4458119177212424,99920,0.0,42
+Rigid MI,2.0,0.0,0.0,0.0,1.9457792129979714,2.09748904517958,0.4589274581182055,99920,28.7648037,42
+Multi-resolution MI,2.0,0.0,0.0,0.0,1.8199526247378488,1.9233300916711387,0.4594658592760926,99920,45.007754399999996,42

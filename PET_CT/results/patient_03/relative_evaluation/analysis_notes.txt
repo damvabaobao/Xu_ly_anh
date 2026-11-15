@@ -1,0 +1,8 @@
+Convention: fixed CT -> moving PET; relative = Ts @ inverse(T0).
+Center LPS mm: [10.0, -200.0, -756.0]
+Grid half-extents mm: [100, 100, 200]
+Points per axis: 5; N=125
+Common synthetic physical grid, not anatomical landmarks; points need not be inside body/PET overlap.
+Absolute errors recomputed on this grid; not identical to original registration_metrics.csv.
+T0 relative error is zero by construction; not independent validation.
+Relative errors compare to known motion, not anatomical accuracy.

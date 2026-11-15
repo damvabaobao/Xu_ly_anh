@@ -1,0 +1,32 @@
+{
+  "seg_file": "ca05fd01-3380-491e-81fe-759ebda2b0ca.dcm",
+  "seg_spacing_mm": [
+    2.03642,
+    2.03642,
+    3.0
+  ],
+  "z_spacing_source": "SEG SpacingBetweenSlices",
+  "segments": 1,
+  "nonempty_rois": 5,
+  "seg_referenced_loaded_series": true,
+  "seg_type": "BINARY",
+  "patient": "patient_02",
+  "pet_units": "BQML",
+  "tests": [
+    "T0",
+    "T1",
+    "T2",
+    "T3",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "background_shell_mm": [
+    5.0,
+    15.0
+  ],
+  "centroid": "analytic native binary SEG centroid; inv(T_est) @ S @ c, not clinical TRE",
+  "cnr": "fixed CT-grid ROI, shell excluding all annotated SEG and CT <= -350; common finite samples across all tests/methods; sample SD; native PET comparison has different sampling",
+  "connectivity": 26,
+  "note": "No SUV conversion. SEG annotations are research references, not independent CT landmarks. CNR shell is not guaranteed homogeneous tissue. Native vs CT grid differs in sample counts."
+}
