@@ -1,0 +1,26 @@
+﻿stage,candidate,histogram_mi,common_samples,selected
+screen,initial +0,0.22748560883157193,60000,1
+screen,initial +5,0.22111395059425878,60000,1
+screen,initial +10,0.1771890247801275,60000,1
+screen,initial -5,0.1689919695492147,60000,1
+screen,initial +15,0.13198208171889916,60000,1
+screen,initial -10,0.12048409069475621,60000,1
+screen,initial -15,0.08901098216207767,60000,1
+coarse ranking,coarse +0,0.3067781955351989,59912,1
+coarse ranking,coarse -10,0.3066373550947782,59912,1
+coarse ranking,coarse -5,0.30651801243774746,59912,0
+coarse ranking,coarse -15,0.30539978692439024,59912,0
+coarse ranking,coarse +5,0.3051160403437906,59912,0
+coarse ranking,coarse +15,0.3035030846536314,59912,0
+coarse ranking,coarse +10,0.3025929123741359,59912,0
+coarse ranking,initial +0,0.22767010880529304,59912,0
+coarse ranking,initial +5,0.22125664322657868,59912,0
+coarse ranking,initial +10,0.1773901425928584,59912,0
+coarse ranking,initial -5,0.16911785737333096,59912,0
+coarse ranking,initial +15,0.13222592882414924,59912,0
+coarse ranking,initial -10,0.12057184692696488,59912,0
+coarse ranking,initial -15,0.0891315593308481,59912,0
+final ranking,fine coarse -10,0.3077710016023909,59885,1
+final ranking,fine coarse +0,0.3076653786147657,59885,0
+final ranking,pre-fine coarse +0,0.30687836177647354,59885,0
+final ranking,pre-fine coarse -10,0.3067349634502886,59885,0

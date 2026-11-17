@@ -1,0 +1,6 @@
+﻿stage,candidate,status
+coarse,initial +5,RegularStepGradientDescentOptimizerv4: Step too small after 22 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial +10,RegularStepGradientDescentOptimizerv4: Step too small after 41 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial +15,RegularStepGradientDescentOptimizerv4: Step too small after 55 iterations. Current step (0.0078125) is less than minimum step (0.01).
+fine,coarse +15,RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.0078125) is less than minimum step (0.01).
+fine,coarse +10,RegularStepGradientDescentOptimizerv4: Gradient magnitude tolerance met after 13 iterations. Gradient magnitude (8.04808e-07) is less than gradient magnitude tolerance (1e-06).

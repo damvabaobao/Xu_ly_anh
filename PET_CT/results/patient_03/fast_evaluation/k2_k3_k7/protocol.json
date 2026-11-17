@@ -1,0 +1,42 @@
+{
+  "patient": "patient_03",
+  "tests": [
+    "T0",
+    "C1",
+    "C2",
+    "C3"
+  ],
+  "angles": [
+    -15,
+    -10,
+    -5,
+    0,
+    5,
+    10,
+    15
+  ],
+  "top_k": [
+    2,
+    3,
+    7
+  ],
+  "selection": "Initial histogram MI screening; retain all raw starts; coarse top K; fine up to 2 distinct poses; common support at each ranking",
+  "coarse": [
+    4,
+    2
+  ],
+  "fine": [
+    2,
+    1
+  ],
+  "seed_optimizer": 42,
+  "seed_screen": 91,
+  "seed_eval": 43,
+  "threads": 1,
+  "versions": {
+    "SimpleITK": "2.5.7",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1"
+  },
+  "notes": "Known S used only to construct motion and evaluate. Relative uses own T0. Timings of old methods are saved historical timings; new timings include selection and optimization. ROI CNR common support within test."
+}

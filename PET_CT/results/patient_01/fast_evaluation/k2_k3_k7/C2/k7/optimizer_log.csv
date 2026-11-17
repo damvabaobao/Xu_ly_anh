@@ -1,0 +1,10 @@
+﻿stage,candidate,status
+coarse,initial -15,RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial -10,RegularStepGradientDescentOptimizerv4: Step too small after 14 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial -5,RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial +0,RegularStepGradientDescentOptimizerv4: Step too small after 13 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial +5,RegularStepGradientDescentOptimizerv4: Step too small after 18 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial +10,RegularStepGradientDescentOptimizerv4: Step too small after 12 iterations. Current step (0.0078125) is less than minimum step (0.01).
+coarse,initial +15,RegularStepGradientDescentOptimizerv4: Step too small after 20 iterations. Current step (0.0078125) is less than minimum step (0.01).
+fine,coarse -15,RegularStepGradientDescentOptimizerv4: Step too small after 11 iterations. Current step (0.0078125) is less than minimum step (0.01).
+fine,initial +5,RegularStepGradientDescentOptimizerv4: Step too small after 9 iterations. Current step (0.0078125) is less than minimum step (0.01).
